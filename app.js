@@ -76,7 +76,7 @@ app.delete('/character/:id', async(req, res) => {
 })
 
 mongoose
-.connect("mongodb://localhost:27017/charsheet")
+.connect("mongodb://127.0.0.1:27017/charsheet")
 .then(() => {
   console.log("Conectado ao banco de dados!");
   app.listen(PORT, () => {
