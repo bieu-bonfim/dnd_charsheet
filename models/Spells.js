@@ -3,44 +3,58 @@ const { default: mongoose} = require("mongoose");
 const spellSchema = mongoose.Schema(
     {
         name: {
-          type: String
+          type: String,
+          required: true
         },
         level: {
-          type: Number
+          type: Number,
+          required: true
         },
         school: {
-          type: String
+          type: String,
+          required: true
         },
         time: {
           type: [
             Array
-          ]
+          ],
+          required: true
         },
         range: {
           type: {
-            type: String
+            type: String,
+            required: true
           },
           distance: {
             type: {
-              type: String
+              type: String,
+              required: true
             },
             amount: {
-              type: Number
+              type: Number,
+              required: true
             }
           }
         },
         components: {
           v: {
-            type: Boolean
+            type: Boolean,
+            required: false
           },
           s: {
-            type: Boolean
+            type: Boolean,
+            required: false
+          },
+          m: {
+            type: Boolean,
+            required: false
           }
         },
         duration: {
           type: [
             Array
-          ]
+          ],
+          required: true
         },
         classes: {
           fromClassList: {
