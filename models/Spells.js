@@ -13,7 +13,7 @@ const spellSchema = mongoose.Schema(
         },
         time: {
           type: [
-            Mixed
+            Array
           ]
         },
         range: {
@@ -39,13 +39,13 @@ const spellSchema = mongoose.Schema(
         },
         duration: {
           type: [
-            Mixed
+            Array
           ]
         },
         classes: {
           fromClassList: {
             type: [
-              Mixed
+              Array
             ]
           }
         },
