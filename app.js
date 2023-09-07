@@ -2,6 +2,7 @@ require('dotenv').config();
 
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 const characterRoute = require('./routes/characterRoute');
 const raceRoute = require('./routes/raceRoute');
@@ -9,10 +10,12 @@ const subraceRoute = require('./routes/subraceRoute');
 const spellRoute = require('./routes/spellRoute');
 const classRoute = require('./routes/classRoute');
 const subclassRoute = require('./routes/subclassRoute');
+const errorMiddleware = require('./middlewares/errorMiddleware');
 
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
@@ -30,6 +33,7 @@ app.get('', (req, res) => {
   res.send("teste");
 });
 
+app.use(errorMiddleware);
 
 mongoose
 .connect(MONGO_URL)
