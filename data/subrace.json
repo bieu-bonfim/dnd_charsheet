@@ -300,64 +300,6 @@
 			],
 			"subraces": [
 				{
-					"name": "Deep/Svirfneblin",
-					"source": "EEPC",
-					"darkvision": 120,
-					"page": 5,
-					"ability": {
-						"dex": 1
-					},
-					"entries": [
-						{
-							"name": "Age",
-							"type": "entries",
-							"entries": [
-								"Deep gnomes are short-lived for gnomes. They mature at the same rate humans do and are considered full-grown adults by 25. They live 200 to 250 years, although hard toil and the dangers of the Underdark often claim them before their time."
-							],
-							"data": {
-								"overwrite": "Age"
-							}
-						},
-						{
-							"name": "Alignment",
-							"type": "entries",
-							"entries": [
-								"Svirfneblin believe that survival depends on avoiding entanglements with other creatures and not making enemies, so they favor neutral alignments. They rarely wish others ill, and they are unlikely to take risks on behalf of others."
-							],
-							"data": {
-								"overwrite": "Alignment"
-							}
-						},
-						{
-							"name": "Superior Darkvision",
-							"entries": [
-								"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-							],
-							"data": {
-								"overwrite": "Darkvision"
-							},
-							"type": "entries"
-						},
-						{
-							"name": "Stone Camouflage",
-							"entries": [
-								"You have advantage on Dexterity (Stealth) checks to hide in rocky terrain."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Languages",
-							"entries": [
-								"You can speak, read, and write Common, Gnomish, and Undercommon. The svirfneblin dialect is more guttural than surface Gnomish, and most svirfneblin know only a little bit of Common, but those who deal with outsiders (and that includes you as an adventurer) pick up enough Common to get by in other lands."
-							],
-							"data": {
-								"overwrite": "Languages"
-							},
-							"type": "entries"
-						}
-					]
-				},
-				{
 					"name": "Forest",
 					"ability": {
 						"dex": 1
@@ -419,64 +361,6 @@
 									]
 								}
 							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Deep",
-					"source": "MTF",
-					"darkvision": 120,
-					"page": 0,
-					"ability": {
-						"dex": 1
-					},
-					"entries": [
-						{
-							"name": "Age",
-							"type": "entries",
-							"entries": [
-								"Deep gnomes are short-lived for gnomes. They mature at the same rate humans do and are considered full-grown adults by 25. They live 200 to 250 years, although hard toil and the dangers of the Underdark often claim them before their time."
-							],
-							"data": {
-								"overwrite": "Age"
-							}
-						},
-						{
-							"name": "Alignment",
-							"type": "entries",
-							"entries": [
-								"Svirfneblin believe that survival depends on avoiding entanglements with other creatures and not making enemies, so they favor neutral alignments. They rarely wish others ill, and they are unlikely to take risks on behalf of others, except those dearest to them."
-							],
-							"data": {
-								"overwrite": "Alignment"
-							}
-						},
-						{
-							"name": "Superior Darkvision",
-							"entries": [
-								"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-							],
-							"data": {
-								"overwrite": "Darkvision"
-							},
-							"type": "entries"
-						},
-						{
-							"name": "Stone Camouflage",
-							"entries": [
-								"You have advantage on Dexterity (Stealth) checks to hide in rocky terrain."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Languages",
-							"entries": [
-								"You can speak, read, and write Common, Gnomish, and Undercommon."
-							],
-							"data": {
-								"overwrite": "Languages"
-							},
 							"type": "entries"
 						}
 					]

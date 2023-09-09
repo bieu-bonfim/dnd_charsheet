@@ -1,5 +1,11 @@
+const { ObjectId } = require('mongodb');
 const asyncHandler = require('express-async-handler');
 const Character = require('../models/Character');
+const Class = require('../models/Class');
+const Race = require('../models/Race');
+const Subrace = require('../models/Subrace');
+const Subclass = require('../models/Subclass');
+const Spell = require('../models/Spell');
 
 const getCharacters = asyncHandler(async(req, res) => {
   try {
@@ -26,7 +32,23 @@ const getCharacter = asyncHandler(async(req, res) => {
   try {
     const {id} = req.params;
     const character = await Character.findById(id);
-    res.send(character);
+    const charClass = await Class.findById(new ObjectId(character.class));
+    const charRace = await Race.findById(new ObjectId(character.race));
+    const charSubrace = await Subrace.findById(new ObjectId(character.subrace));
+    const charSubclass = await Subclass.findById(new ObjectId(character.subclass));
+    var charSpells = [];
+    character.spells.forEach(async e => {
+      const spellData = await Spell.findById(new ObjectId(e));
+      charSpells.push(spellData);
+    });
+    res.send({
+      character,
+      class: charClass,
+      race: charRace,
+      subrace: charSubrace,
+      subclass: charSubclass,
+      spells: charSpells
+    });
   } catch (error) {
     res.status(500);
     throw new Error(error.message);

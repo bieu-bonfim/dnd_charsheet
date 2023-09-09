@@ -30,6 +30,28 @@ const characterSchema = mongoose.Schema(
       type: Number,
       required: true
     },
+    class :{
+      type:mongoose.Schema.Types.ObjectId,
+      ref:'Class'
+    },
+    subclass: {
+      type:mongoose.Schema.Types.ObjectId,
+      ref:'Subclass'
+    },
+    race: {
+      type:mongoose.Schema.Types.ObjectId,
+      ref:'Race'
+    },
+    subrace: {
+      type:mongoose.Schema.Types.ObjectId,
+      ref:'Subrace'
+    },
+    spells: [
+      {
+        type:mongoose.Schema.Types.ObjectId,
+        ref:'Spell'
+      }
+    ]
   },
   {
     timestamps: true
