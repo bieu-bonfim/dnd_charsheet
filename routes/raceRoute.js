@@ -6,10 +6,8 @@ const {
   createRace,
   deleteRace,
   getRaces,
-  updateRaces,
   updateRace,
 } = require('../controllers/raceController');
-const { createCharacter } = require('../controllers/characterController');
 
 const router = express.Router();
 

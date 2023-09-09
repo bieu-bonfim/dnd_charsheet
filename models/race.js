@@ -41,7 +41,7 @@ const raceSchema = mongoose.Schema(
               cha: {
                 type: Number,
                 required: false
-              },
+              }
         },
         darkvision: {
           type: Number
