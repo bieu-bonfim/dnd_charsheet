@@ -7,8 +7,30 @@ const subRaceSchema = mongoose.Schema(
             required: true
         },
         ability: {
-            type: String,
-            required: true,
+            str: {
+                type: Number,
+                required: false
+              },
+              dex: {
+                type: Number,
+                required: false
+              },
+              con: {
+                type: Number,
+                required: false
+              },
+              int: {
+                type: Number,
+                required: false
+              },
+              wis: {
+                type: Number,
+                required: false
+              },
+              cha: {
+                type: Number,
+                required: false
+              }
         },
         darkvision: {
             type: Number,
