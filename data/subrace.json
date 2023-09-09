@@ -60,6 +60,195 @@
 					],
 					"type": "entries"
 				}
+			],
+			"subraces": [
+				{
+					"name": "Drow",
+					"ability": {
+						"cha": 1
+					},
+					"darkvision": 120,
+					"entries": [
+						{
+							"name": "Superior Darkvision",
+							"entries": [
+								"Accustomed to the depths of the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+							],
+							"data": {
+								"overwrite": "Darkvision"
+							},
+							"type": "entries"
+						},
+						{
+							"name": "Sunlight Sensitivity",
+							"entries": [
+								"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Drow Magic",
+							"entries": [
+								"You know the {@spell dancing lights} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire} spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell darkness} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Drow Weapon Training",
+							"entries": [
+								"You have proficiency with rapiers, shortswords, and hand crossbows."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Eladrin; DMG",
+					"source": "DMG",
+					"page": 286,
+					"ability": {
+						"int": 1
+					},
+					"entries": [
+						{
+							"name": "Elf Weapon Training",
+							"entries": [
+								"You have proficiency with the longsword, shortsword, shortbow, and longbow."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Fey Step",
+							"entries": [
+								"You can cast the {@spell misty step} spell once using this trait. You regain the ability to do so when you finish a short or long rest."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "High",
+					"speed": 30,
+					"ability": {
+						"int": 1
+					},
+					"entries": [
+						{
+							"name": "Elf Weapon Training",
+							"entries": [
+								"You have proficiency with the longsword, shortsword, shortbow, and longbow."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Cantrip",
+							"entries": [
+								"You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Extra Language",
+							"entries": [
+								"You can speak, read, and write one extra language of your choosing."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Wood",
+					"speed": 35,
+					"ability": {
+						"wis": 1
+					},
+					"entries": [
+						{
+							"name": "Elf Weapon Training",
+							"entries": [
+								"You have proficiency with the longsword, shortsword, shortbow, and longbow."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Fleet of Foot",
+							"entries": [
+								"Your base walking speed increases to 35 feet."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Mask of the Wild",
+							"entries": [
+								"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Eladrin; UA",
+					"source": "UAEladrinAndGith",
+					"page": 1,
+					"ability": {
+						"choose": [
+							{
+								"from": [
+									"int",
+									"cha"
+								],
+								"count": 1
+							}
+						]
+					},
+					"entries": [
+						{
+							"name": "Fey Step",
+							"entries": [
+								"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Shifting Seasons",
+							"entries": [
+								"At the end of each short or long rest, you can align yourself with the magic of one season, regardless of the season that is dominating your personality. Doing so allows you to cast a certain cantrip, as shown in the Shifting Seasons Cantrips table. When you align yourself with a season's magic, you lose the cantrip associated with the previous season and gain the cantrip associated with the new season.",
+								"Your spellcasting ability for these cantrips is Intelligence or Charisma, whichever is higher.",
+								{
+									"type": "table",
+									"caption": "Shifting Seasons Cantrips",
+									"colLabels": [
+										"Season",
+										"Cantrip"
+									],
+									"colStyles": [
+										"col-xs-6 text-align-center",
+										"col-xs-6 text-align-center"
+									],
+									"rows": [
+										[
+											"Autumn",
+											"{@spell Friends}"
+										],
+										[
+											"Winter",
+											"{@spell Chill touch}"
+										],
+										[
+											"Spring",
+											"{@spell Minor illusion}"
+										],
+										[
+											"Summer",
+											"{@spell Fire bolt}"
+										]
+									]
+								}
+							],
+							"type": "entries"
+						}
+					]
+				}
 			]
 		},
 		{
@@ -107,6 +296,190 @@
 						"You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world."
 					],
 					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Deep/Svirfneblin",
+					"source": "EEPC",
+					"darkvision": 120,
+					"page": 5,
+					"ability": {
+						"dex": 1
+					},
+					"entries": [
+						{
+							"name": "Age",
+							"type": "entries",
+							"entries": [
+								"Deep gnomes are short-lived for gnomes. They mature at the same rate humans do and are considered full-grown adults by 25. They live 200 to 250 years, although hard toil and the dangers of the Underdark often claim them before their time."
+							],
+							"data": {
+								"overwrite": "Age"
+							}
+						},
+						{
+							"name": "Alignment",
+							"type": "entries",
+							"entries": [
+								"Svirfneblin believe that survival depends on avoiding entanglements with other creatures and not making enemies, so they favor neutral alignments. They rarely wish others ill, and they are unlikely to take risks on behalf of others."
+							],
+							"data": {
+								"overwrite": "Alignment"
+							}
+						},
+						{
+							"name": "Superior Darkvision",
+							"entries": [
+								"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+							],
+							"data": {
+								"overwrite": "Darkvision"
+							},
+							"type": "entries"
+						},
+						{
+							"name": "Stone Camouflage",
+							"entries": [
+								"You have advantage on Dexterity (Stealth) checks to hide in rocky terrain."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Languages",
+							"entries": [
+								"You can speak, read, and write Common, Gnomish, and Undercommon. The svirfneblin dialect is more guttural than surface Gnomish, and most svirfneblin know only a little bit of Common, but those who deal with outsiders (and that includes you as an adventurer) pick up enough Common to get by in other lands."
+							],
+							"data": {
+								"overwrite": "Languages"
+							},
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Forest",
+					"ability": {
+						"dex": 1
+					},
+					"entries": [
+						{
+							"name": "Natural Illusionist",
+							"entries": [
+								"You know the {@spell minor illusion} cantrip. Intelligence is your spellcasting ability for it."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Speak with Small Beasts",
+							"entries": [
+								"Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Rock",
+					"ability": {
+						"con": 1
+					},
+					"entries": [
+						{
+							"name": "Artificer's Lore",
+							"entries": [
+								"Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Tinker",
+							"entries": [
+								"You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
+								"When you create a device, choose one of the following options:",
+								{
+									"type": "entries",
+									"name": "Clockwork Toy",
+									"entries": [
+										"This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Fire Starter",
+									"entries": [
+										"The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Music Box",
+									"entries": [
+										"When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
+									]
+								}
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Deep",
+					"source": "MTF",
+					"darkvision": 120,
+					"page": 0,
+					"ability": {
+						"dex": 1
+					},
+					"entries": [
+						{
+							"name": "Age",
+							"type": "entries",
+							"entries": [
+								"Deep gnomes are short-lived for gnomes. They mature at the same rate humans do and are considered full-grown adults by 25. They live 200 to 250 years, although hard toil and the dangers of the Underdark often claim them before their time."
+							],
+							"data": {
+								"overwrite": "Age"
+							}
+						},
+						{
+							"name": "Alignment",
+							"type": "entries",
+							"entries": [
+								"Svirfneblin believe that survival depends on avoiding entanglements with other creatures and not making enemies, so they favor neutral alignments. They rarely wish others ill, and they are unlikely to take risks on behalf of others, except those dearest to them."
+							],
+							"data": {
+								"overwrite": "Alignment"
+							}
+						},
+						{
+							"name": "Superior Darkvision",
+							"entries": [
+								"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+							],
+							"data": {
+								"overwrite": "Darkvision"
+							},
+							"type": "entries"
+						},
+						{
+							"name": "Stone Camouflage",
+							"entries": [
+								"You have advantage on Dexterity (Stealth) checks to hide in rocky terrain."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Languages",
+							"entries": [
+								"You can speak, read, and write Common, Gnomish, and Undercommon."
+							],
+							"data": {
+								"overwrite": "Languages"
+							},
+							"type": "entries"
+						}
+					]
 				}
 			]
 		},

@@ -3,32 +3,55 @@ const { default: mongoose } = require("mongoose");
 const raceSchema = mongoose.Schema(
     {
         name: {
-            type: String,
-            required: true
+          type: String
+        },
+        source: {
+          type: String
+        },
+        page: {
+          type: Number
         },
         size: {
-            type: String,
-            required: true
+          type: String
         },
         speed: {
-            type: Number,
-            required: true
-        },
-        darkvision: {
-            type: Number,
-            required: false
+          type: Number
         },
         ability: {
-            type: String,
-            required: true
+            str: {
+                type: Number,
+                required: false
+              },
+              dex: {
+                type: Number,
+                required: false
+              },
+              con: {
+                type: Number,
+                required: false
+              },
+              int: {
+                type: Number,
+                required: false
+              },
+              wis: {
+                type: Number,
+                required: false
+              },
+              cha: {
+                type: Number,
+                required: false
+              },
+        },
+        darkvision: {
+          type: Number
         },
         entries: {
-            type: [
-                Array
-            ],
-            required: false
-        },
-    },
+          type: [
+            Array
+          ]
+        }
+      },
     {
         timestamps: true
     }
