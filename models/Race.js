@@ -1,6 +1,6 @@
 const { default: mongoose } = require("mongoose");
 
-const raceSchema = mongoose.Schema(
+const raceSchema =  mongoose.Schema(
     {
         name: {
           type: String
