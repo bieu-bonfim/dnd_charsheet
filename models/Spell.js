@@ -4,7 +4,8 @@ const spellSchema = mongoose.Schema(
     {
         name: {
           type: String,
-          required: true
+          required: true,
+          unique: true
         },
         level: {
           type: Number,
@@ -28,11 +29,11 @@ const spellSchema = mongoose.Schema(
           distance: {
             type: {
               type: String,
-              required: true
+              required: false
             },
             amount: {
               type: Number,
-              required: true
+              required: false
             }
           }
         },
@@ -46,7 +47,9 @@ const spellSchema = mongoose.Schema(
             required: false
           },
           m: {
-            type: Boolean,
+            type: [
+              Array
+            ],
             required: false
           }
         },
@@ -68,7 +71,7 @@ const spellSchema = mongoose.Schema(
         },
         entries: {
           type: [
-            String
+            Array
           ]
         },
         page: {
