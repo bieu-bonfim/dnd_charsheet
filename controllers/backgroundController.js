@@ -12,7 +12,7 @@ const getBackgrounds = asyncHandler(async(req, res) => {
       throw new Error(error.message);
     }
   });
-  
+
 const createBackground = asyncHandler(async(req, res) => {
 try {
     const background = await Background.create(req.body);

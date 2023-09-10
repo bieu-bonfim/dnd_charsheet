@@ -13,7 +13,6 @@ const subclassRoute = require('./routes/subclassRoute');
 const backgroundRoute = require('./routes/backgroundRoute');
 const errorMiddleware = require('./middlewares/errorMiddleware');
 
-
 const app = express();
 
 app.use(cors());
