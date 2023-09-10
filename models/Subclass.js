@@ -16,9 +16,12 @@ const subclassSchema = mongoose.Schema(
     shortName: {
       type: String
     },
-    class :{
+    class_id :{
       type:mongoose.Schema.Types.ObjectId,
       ref:'Class'
+    },
+    class: {
+      type: String
     }
   },
   {

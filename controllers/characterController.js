@@ -6,6 +6,7 @@ const Race = require('../models/Race');
 const Subrace = require('../models/Subrace');
 const Subclass = require('../models/Subclass');
 const Spell = require('../models/Spell');
+const Background = require('../models/Background');
 
 const getCharacters = asyncHandler(async(req, res) => {
   try {
@@ -36,6 +37,7 @@ const getCharacter = asyncHandler(async(req, res) => {
     const charRace = await Race.findById(new ObjectId(character.race));
     const charSubrace = await Subrace.findById(new ObjectId(character.subrace));
     const charSubclass = await Subclass.findById(new ObjectId(character.subclass));
+    const charBackground = await Background.findById(new ObjectId(character.background));
     var charSpells = [];
     character.spells.forEach(async e => {
       const spellData = await Spell.findById(new ObjectId(e));
@@ -47,7 +49,8 @@ const getCharacter = asyncHandler(async(req, res) => {
       race: charRace,
       subrace: charSubrace,
       subclass: charSubclass,
-      spells: charSpells
+      spells: charSpells,
+      background: charBackground
     });
   } catch (error) {
     res.status(500);

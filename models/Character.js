@@ -46,6 +46,10 @@ const characterSchema = mongoose.Schema(
       type:mongoose.Schema.Types.ObjectId,
       ref:'Subrace'
     },
+    background: {
+      type:mongoose.Schema.Types.ObjectId,
+      ref:'Background'
+    },
     spells: [
       {
         type:mongoose.Schema.Types.ObjectId,
