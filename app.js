@@ -10,8 +10,8 @@ const subraceRoute = require('./routes/subraceRoute');
 const spellRoute = require('./routes/spellRoute');
 const classRoute = require('./routes/classRoute');
 const subclassRoute = require('./routes/subclassRoute');
+const backgroundRoute = require('./routes/backgroundRoute');
 const errorMiddleware = require('./middlewares/errorMiddleware');
-
 
 const app = express();
 
@@ -28,6 +28,7 @@ app.use('/api/subrace', subraceRoute);
 app.use('/api/spell', spellRoute);
 app.use('/api/class', classRoute);
 app.use('/api/subclass', subclassRoute);
+app.use('/api/background', backgroundRoute);
 
 app.get('', (req, res) => {
   res.send("teste");
