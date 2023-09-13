@@ -5,13 +5,26 @@ const Spell = require('../models/Spell');
 // ---------------------------- spell  ------------------------------
 const getSpells = asyncHandler(async(req, res) => {
     try {
-      const spell = await Spell.find()
-      res.send(spell)
+      const spell = await Spell.find().sort({"level": 1});
+      res.send(spell);  
     } catch (error) {
       res.status(500);
       throw new Error(error.message);
     }
   });
+
+const getSpellsClass = asyncHandler(async(req, res) => {
+  try {
+    const {name} = req.query;
+    const spell = await Spell
+    .find({"classes.fromClassList.name": name})
+    .sort({"level": 1});
+    res.send(spell)
+  } catch (error) {
+    res.status(500);
+    throw new Error(error.message);
+  }
+});
 
 const createSpell = asyncHandler(async(req, res) => {
 try {
@@ -70,6 +83,7 @@ const deleteSpell = asyncHandler(async(req, res) => {
   
 module.exports = {
 getSpells,
+getSpellsClass,
 createSpell,
 getSpell,
 updateSpell,
