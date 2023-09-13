@@ -18,6 +18,17 @@ const getCharacters = asyncHandler(async(req, res) => {
   }
 });
 
+const getCharacterByName = asyncHandler(async(req, res) => {
+  try {
+    const {name} = req.query;
+    const character = await Character.find({name: { $regex: name }});
+    res.send(character)
+  } catch (error) {
+    res.status(500);
+    throw new Error(error.message);
+  }
+});
+
 const createCharacter = asyncHandler(async(req, res) => {
   try {
     const character = await Character.create(req.body);
@@ -42,6 +53,9 @@ const getCharacter = asyncHandler(async(req, res) => {
     character.spells.forEach(async e => {
       const spellData = await Spell.findById(new ObjectId(e));
       charSpells.push(spellData);
+    });
+    charSpells.sort((a, b) => {
+      return a.level - b.level;
     });
     res.send({
       character,
@@ -95,4 +109,5 @@ module.exports = {
   getCharacter,
   updateCharacter,
   deleteCharacter,
+  getCharacterByName
 }

@@ -5,13 +5,15 @@ const {
   createCharacter, 
   deleteCharacter, 
   getCharacters, 
-  updateCharacter
+  updateCharacter,
+  getCharacterByName
 } = require('../controllers/characterController');
 
 const router = express.Router();
 
 // ----------------------------- character ----------------------------------------
 router.get('/', getCharacters);
+router.get('/name', getCharacterByName);
 router.post('/', createCharacter);
 router.get('/:id', getCharacter);
 router.put('/:id', updateCharacter);
