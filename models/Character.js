@@ -6,6 +6,11 @@ const characterSchema = mongoose.Schema(
       type: String,
       required: [true, "Insira um nome para o personagem"]
     },
+    pericias: {
+      type: [
+        String
+      ]
+    },
     str: {
       type: Number,
       required: true
