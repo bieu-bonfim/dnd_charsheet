@@ -6,14 +6,16 @@ const {
   createSubrace,
   deleteSubrace,
   getSubrace,
-  updateSubrace
+  updateSubrace,
+  getSubraceByRace
 } = require('../controllers/subraceController')
 
 const router = express.Router();
 
 router.get('/', getSubraces);
-router.post('/', createSubrace);
+router.get('/race', getSubraceByRace);
 router.get('/:id', getSubrace);
+router.post('/', createSubrace);
 router.put('/:id', updateSubrace);
 router.delete('/:id', deleteSubrace);
 

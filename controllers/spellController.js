@@ -13,7 +13,7 @@ const getSpells = asyncHandler(async(req, res) => {
     }
   });
 
-const getSpellsClass = asyncHandler(async(req, res) => {
+const getSpellsByClass = asyncHandler(async(req, res) => {
   try {
     const {name} = req.query;
     const spell = await Spell
@@ -83,7 +83,7 @@ const deleteSpell = asyncHandler(async(req, res) => {
   
 module.exports = {
 getSpells,
-getSpellsClass,
+getSpellsByClass,
 createSpell,
 getSpell,
 updateSpell,

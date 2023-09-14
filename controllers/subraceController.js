@@ -24,15 +24,26 @@ try {
 });
 
 const getSubrace = asyncHandler(async(req, res) => {
-    try {
-      const {id} = req.params;
-      const spell = await Spell.findById(id);
-      res.send(spell);
-    } catch (error) {
-      res.status(500);
-      throw new Error(error.message);
-    }
-  });
+  try {
+    const {id} = req.params;
+    const subrace = await Subrace.findById(id);
+    res.send(subrace);
+  } catch (error) {
+    res.status(500);
+    throw new Error(error.message);
+  }
+});
+
+const getSubraceByRace = asyncHandler(async(req, res) => {
+  try {
+    const {name} = req.query;
+    const subrace = await Subrace.find({"race": name});
+    res.send(subrace);
+  } catch (error) {
+    res.status(500);
+    throw new Error(error.message);
+  }
+});
 
 const updateSubrace = asyncHandler(async(req, res) => {
 try {
@@ -70,6 +81,7 @@ const deleteSubrace = asyncHandler(async(req, res) => {
     createSubrace,
     getSubrace,
     updateSubrace,
-    deleteSubrace
+    deleteSubrace,
+    getSubraceByRace
   }
   

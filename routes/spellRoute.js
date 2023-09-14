@@ -6,14 +6,14 @@ const {
   createSpell,
   deleteSpell,
   getSpells,
-  getSpellsClass,
+  getSpellsByClass,
   updateSpell,
 } = require('../controllers/spellController');
 
 const router = express.Router();
 
 router.get('/', getSpells);
-router.get('/class', getSpellsClass);
+router.get('/class', getSpellsByClass);
 router.post('/', createSpell);
 router.get('/:id', getSpell);
 router.put('/:id', updateSpell);

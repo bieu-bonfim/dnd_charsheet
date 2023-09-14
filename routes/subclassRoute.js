@@ -7,14 +7,16 @@ const {
     deleteSubclass,
     getSubclasses,
     updateSubclass,
+    getSubclassByClass,
 } = require('../controllers/subclassController')
 
 const router = express.Router();
 
 router.get('/', getSubclasses);
-router.post('/', createSubclass);
+router.get('/class', getSubclassByClass);
 router.get('/:id', getSubclass);
 router.put('/:id', updateSubclass);
 router.delete('/:id', deleteSubclass);
+router.post('/', createSubclass);
 
 module.exports = router;

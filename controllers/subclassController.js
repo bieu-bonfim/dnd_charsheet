@@ -25,16 +25,26 @@ try {
 });
   
 const getSubclass = asyncHandler(async(req, res) => {
-    try {
-      const {id} = req.params;
-      const subclass = await Subclass.findById(id);
-      res.send(subclass);
-    } catch (error) {
-      res.status(500);
-      throw new Error(error.message);
-    }
-  });
+  try {
+    const {id} = req.params;
+    const subclass = await Subclass.findById(id);
+    res.send(subclass);
+  } catch (error) {
+    res.status(500);
+    throw new Error(error.message);
+  }
+});
   
+const getSubclassByClass = asyncHandler(async(req, res) => {
+  try {
+    const {name} = req.query;
+    const subclass = await Subclass.find({"class": name});
+    res.send(subclass);
+  } catch (error) {
+    res.status(500);
+    throw new Error(error.message);
+  }
+});
 
 const updateSubclass = asyncHandler(async(req, res) => {
 try {
@@ -73,5 +83,6 @@ getSubclasses,
 createSubclass,
 getSubclass,
 updateSubclass,
-deleteSubclass
+deleteSubclass,
+getSubclassByClass
 }
