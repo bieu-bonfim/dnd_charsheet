@@ -60,6 +60,18 @@ const characterSchema = mongoose.Schema(
         type:mongoose.Schema.Types.ObjectId,
         ref:'Spell'
       }
+    ],
+    level: 
+    {
+      type: Number
+    },
+    saves:
+    [
+      Number
+    ],
+    skills:
+    [
+      String
     ]
   },
   {
