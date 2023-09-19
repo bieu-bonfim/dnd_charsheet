@@ -55,6 +55,9 @@ const characterSchema = mongoose.Schema(
       type:mongoose.Schema.Types.ObjectId,
       ref:'Background'
     },
+    actions: [
+      String
+    ],
     spells: [
       {
         type:mongoose.Schema.Types.ObjectId,
@@ -62,6 +65,22 @@ const characterSchema = mongoose.Schema(
       }
     ],
     level: 
+    {
+      type: Number
+    },
+    life:
+    {
+      type: Number
+    },
+    ca:
+    {
+      type: Number
+    },
+    ini:
+    {
+      type: Number
+    },
+    mov:
     {
       type: Number
     },
