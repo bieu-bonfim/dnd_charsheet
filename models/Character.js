@@ -58,6 +58,15 @@ const characterSchema = mongoose.Schema(
     actions: [
       String
     ],
+    items: [
+      String
+    ],
+    proefs:[
+      String
+    ],
+    traits:[
+      String
+    ],
     spells: [
       {
         type:mongoose.Schema.Types.ObjectId,
