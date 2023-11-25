@@ -9,7 +9,7 @@ const bestiarySchema = mongoose.Schema(
       type: String
     },
     entries: {
-      Mixed
+      type: [String]
     }
   },
   {
