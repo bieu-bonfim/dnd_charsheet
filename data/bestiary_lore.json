@@ -245,14 +245,10 @@
 				"If the aboleth dies, the first two effects fade over the course of 3d10 days."
 			]
 	},
-	// {
-	// 	"name": "Abominable Yeti",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Yeti",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Abominable Yeti",
+		"source": "MM"
+	},
 	{
 		"name": "Acolyte",
 		"source": "MM",
@@ -260,14 +256,10 @@
 				"Acolytes are junior members of a clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities."
 			]
 	},
-	// {
-	// 	"name": "Adult Black Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Black Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Adult Black Dragon",
+		"source": "MM"
+	},
 	{
 		"name": "Adult Blue Dracolich",
 		"source": "MM",
@@ -287,78 +279,42 @@
 				"Magic Resistance. The dracolich has advantage on saving throws against spells and other magical effects."
 			]
 	},
-	// {
-	// 	"name": "Adult Blue Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Blue Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Adult Brass Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Brass Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Adult Bronze Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Bronze Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Adult Copper Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Copper Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Adult Gold Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Gold Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Adult Green Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Green Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Adult Red Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Red Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Adult Silver Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Silver Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Adult White Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "White Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Adult Blue Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Adult Brass Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Adult Bronze Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Adult Copper Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Adult Gold Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Adult Green Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Adult Red Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Adult Silver Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Adult White Dragon",
+		"source": "MM"
+	},
 	{
 		"name": "Air Elemental",
 		"source": "MM",
@@ -377,86 +333,46 @@
 				"Dinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens."
 				]
 	},
-	//{
-	// 	"name": "Ancient Black Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Black Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Ancient Blue Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Blue Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Ancient Brass Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Brass Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Ancient Bronze Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Bronze Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Ancient Copper Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Copper Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Ancient Gold Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Gold Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Ancient Green Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Green Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Ancient Red Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Red Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Ancient Silver Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Silver Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Ancient White Dragon",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "White Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Ancient Black Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Ancient Blue Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Ancient Brass Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Ancient Bronze Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Ancient Copper Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Ancient Gold Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Ancient Green Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Ancient Red Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Ancient Silver Dragon",
+		"source": "MM"
+	},
+	{
+		"name": "Ancient White Dragon",
+		"source": "MM"
+	},
 	{
 		"name": "Androsphinx",
 		"source": "MM",
@@ -675,11 +591,7 @@
 	},
 	{
 		"name": "Black Dragon Wyrmling",
-		"source": "MM",
-		"_copy": {
-			"name": "Black Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Black Pudding",
@@ -712,14 +624,10 @@
 				"Taking its name from its crimson feathers and aggressive nature, the blood hawk fearlessly attacks almost any animal, stabbing it with its daggerlike beak. Blood hawks flock together in large numbers, attacking as a pack to take down prey."
 			]
 	},
-	// {
-	// 	"name": "Blue Dragon Wyrmling",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Blue Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Blue Dragon Wyrmling",
+		"source": "MM"
+	},
 	{
 		"name": "Blue Slaad",
 		"source": "MM",
@@ -752,38 +660,22 @@
 				"Bone Devil Polearm"
 			]
 	},
-	// {
-	// 	"name": "Bone Naga (Guardian)",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Bone Naga",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Bone Naga (Spirit)",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Bone Naga",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Brass Dragon Wyrmling",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Brass Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Bronze Dragon Wyrmling",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Bronze Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Bone Naga (Guardian)",
+		"source": "MM"
+	},
+	{
+		"name": "Bone Naga (Spirit)",
+		"source": "MM"
+	},
+	{
+		"name": "Brass Dragon Wyrmling",
+		"source": "MM"
+	},
+	{
+		"name": "Bronze Dragon Wyrmling",
+		"source": "MM"
+	},
 	{
 		"name": "Bugbear",
 		"source": "MM",
@@ -794,14 +686,10 @@
 				"Venal Ambushers. Despite their intimidating builds, bugbears move with surprising stealth. They are fond of setting ambushes and flee when outmatched. They are dependable mercenaries as long as they are supplied food, drink, and treasure, but a bugbear forgets any bond when its life is on the line. A wounded member of a bugbear band might be left behind to help the rest of the band escape. Afterward, that bugbear might help pursuers track down its former companions if doing so saves its life."
 			]
 	},
-	// {
-	// 	"name": "Bugbear Chief",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Bugbear",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Bugbear Chief",
+		"source": "MM"
+	},
 	{
 		"name": "Bulette",
 		"source": "MM",
@@ -964,14 +852,10 @@
 				"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
 			]
 	},
-	// {
-	// 	"name": "Copper Dragon Wyrmling",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Copper Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Copper Dragon Wyrmling",
+		"source": "MM"
+	},
 	{
 		"name": "Couatl",
 		"source": "MM",
@@ -1141,14 +1025,10 @@
 				"If the demilich drops to 0 hit points, it is destroyed and turns to powder, leaving behind its gems. Crushing a gem releases any soul trapped within, at which point the target's body re-forms in an unoccupied space nearest to the gem and in the same state as when it was trapped."
 			]
 	},
-	// {
-	// 	"name": "Acererak Demilich",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Demilich",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Acererak Demilich",
+		"source": "MM"
+	},
 	{
 		"name": "Deva",
 		"source": "MM",
@@ -1407,62 +1287,34 @@
 				"Whatever the truth of the ettins' origin, orcs treat them as distant cousins, and orc tribes often entice ettins to serve as guards, scouts, and marauders. An ettin isn't particularly loyal to its orc handlers, but the orcs can win it over with the promise of food and loot."
 			]
 	},
-	// {
-	// 	"name": "Faerie Dragon (Blue)",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Faerie Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Faerie Dragon (Green)",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Faerie Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Faerie Dragon (Indigo)",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Faerie Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Faerie Dragon (Orange)",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Faerie Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Faerie Dragon (Red)",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Faerie Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Faerie Dragon (Violet)",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Faerie Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Faerie Dragon (Yellow)",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Faerie Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Faerie Dragon (Blue)",
+		"source": "MM"
+	},
+	{
+		"name": "Faerie Dragon (Green)",
+		"source": "MM"
+	},
+	{
+		"name": "Faerie Dragon (Indigo)",
+		"source": "MM"
+	},
+	{
+		"name": "Faerie Dragon (Orange)",
+		"source": "MM"
+	},
+	{
+		"name": "Faerie Dragon (Red)",
+		"source": "MM"
+	},
+	{
+		"name": "Faerie Dragon (Violet)",
+		"source": "MM"
+	},
+	{
+		"name": "Faerie Dragon (Yellow)",
+		"source": "MM"
+	},
 	{
 		"name": "Fire Elemental",
 		"source": "MM",
@@ -1491,14 +1343,10 @@
 				"Fire giants strive to build the strongest fortresses and most potent siege weapons. They experiment with alloys to create the hardest armor, then forge the swords that can pierce it. Such work requires brawn and brains in equal measure, and fire giants high in the ordning tend to be the smartest and strongest of their kind."
 			]
 	},
-	// {
-	// 	"name": "Fire Snake",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Salamander",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Fire Snake",
+		"source": "MM"
+	},
 	{
 		"name": "Flameskull",
 		"source": "MM",
@@ -1653,14 +1501,10 @@
 				"Ooze Nature. An ooze doesn't require sleep."
 			]
 	},
-	// {
-	// 	"name": "Ghast",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Ghoul",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Ghast",
+		"source": "MM"
+	},
 	{
 		"name": "Ghost",
 		"source": "MM",
@@ -1713,11 +1557,11 @@
 				"Spider Climb. The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
 			]
 	},
-	// {
-	// 	"name": "Giant Octopus",
-	// 	"source": "MM",
-	// 	"entries": []
-	// },
+	{
+		"name": "Giant Octopus",
+		"source": "MM",
+		"entries": []
+	},
 	{
 		"name": "Giant Owl",
 		"source": "MM",
@@ -1771,38 +1615,22 @@
 				"A gibbering mouther leaves nothing of its prey behind. However, even as the last of a victim's body is consumed, its eyes and mouth boil to the surface, ready to join the chorus of tormented gibbering that welcomes the monster's next meal."
 			]
 	},
-	// {
-	// 	"name": "Githyanki Knight",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Githyanki",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Githyanki Warrior",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Githyanki",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Githzerai Monk",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Githzerai",
-	// 		"source": "MM"
-	// 	}
-	// },
-	// {
-	// 	"name": "Githzerai Zerth",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Githzerai",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Githyanki Knight",
+		"source": "MM"
+	},
+	{
+		"name": "Githyanki Warrior",
+		"source": "MM"
+	},
+	{
+		"name": "Githzerai Monk",
+		"source": "MM"
+	},
+	{
+		"name": "Githzerai Zerth",
+		"source": "MM"
+	},
 	{
 		"name": "Glabrezu",
 		"source": "MM",
@@ -1869,14 +1697,10 @@
 				"Goblin Boss"
 		]
 	},
-	// {
-	// 	"name": "Gold Dragon Wyrmling",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Gold Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Gold Dragon Wyrmling",
+		"source": "MM"
+	},
 	{
 		"name": "Gorgon",
 		"source": "MM",
@@ -1910,14 +1734,10 @@
 				"Ooze Nature. An ooze doesn't require sleep."
 			]
 	},
-	// {
-	// 	"name": "Gray Ooze (Psychic)",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Gray Ooze",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Gray Ooze (Psychic)",
+		"source": "MM"
+	},
 	{
 		"name": "Gray Slaad",
 		"source": "MM",
@@ -1938,14 +1758,10 @@
 				"Someone who is proficient in Wisdom (Medicine) can remove the gem from an incapacitated slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom (Medicine) check. Each failed attempt deals 22 (4d10) psychic damage to the slaad."
 		]
 	},
-	// {
-	// 	"name": "Green Dragon Wyrmling",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Green Dragon",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Green Dragon Wyrmling",
+		"source": "MM"
+	},
 	{
 		"name": "Green Hag",
 		"source": "MM",
@@ -2024,14 +1840,10 @@
 				"Spoils of Slaughter. Over time, grick lairs accumulate the cast-off possessions of intelligent prey, and expert guides know to look out for these tell-tale signs. Underdark explorers sometimes seal off the routes leading to and from a grick lair to starve them, then claim the wealth of the foul creatures' victims."
 			]
 	},
-	// {
-	// 	"name": "Grick Alpha",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Grick",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Grick Alpha",
+		"source": "MM"
+	},
 	{
 		"name": "Griffon",
 		"source": "MM",
@@ -2148,14 +1960,14 @@
 				"Gruesome Collectors. Harpies take shiny baubles, valuable objects, and other trophies from their victims, sometimes fighting with each other for the right to claim the choicest prizes. When no valuable objects can be found, a harpy takes hair, bones, or body parts to line its nest. A harpy's lair is usually hidden in remote ruins, where adventurers can discover valuable treasure and magic hidden beneath foul piles of offal."
 			]
 	},
-	// {
-	// 	"name": "Hawk",
-	// 	"source": "MM",
-	// 	"entries": {
-	// 		"type": "entries",
-	// 		"entries": []
-	// 	}
-	// },
+	{
+		"name": "Hawk",
+		"source": "MM",
+		"entries": {
+			"type": "entries",
+			"entries": []
+		}
+	},
 	{
 		"name": "Hell Hound",
 		"source": "MM",
@@ -2281,14 +2093,10 @@
 				"Hardy Water Dwellers. Hydras are natural swimmers, dwelling in rivers, along lakeshores, in ocean shallows, and in wetland bogs. A hydra rarely requires shelter from the elements, so it doesn't normally have a lair. Only in colder climes are hydras drawn to the protection of sheltered caverns and ruins. When a hydra sleeps, at least one of its heads remains awake and alert, making the creature difficult to catch by surprise."
 			]
 	},
-	// {
-	// 	"name": "Hyena",
-	// 	"source": "MM",
-	// 	"entries": {
-	// 		"type": "entries",
-	// 		"entries": []
-	// 	}
-	// },
+	{
+		"name": "Hyena",
+		"source": "MM"
+	},
 	{
 		"name": "Ice Devil",
 		"source": "MM",
@@ -2321,14 +2129,10 @@
 				"Familiar. The imp can enter into a contract to serve another creature as a familiar, forming a telepathic bond with its willing master. While the two are bonded, the master can sense what the imp senses as long as they are within 1 mile of each other. While the imp is within 10 feet of its master, the master shares the imp's Magic Resistance trait. If its master violates the terms of the contract, the imp can end its service as a familiar, ending the telepathic bond."
 			]
 	},
-	// {
-	// 	"name": "Incubus",
-	// 	"source": "MM",
-	// 	"_copy": {
-	// 		"name": "Succubus/Incubus",
-	// 		"source": "MM"
-	// 	}
-	// },
+	{
+		"name": "Incubus",
+		"source": "MM"
+	},
 	{
 		"name": "Intellect Devourer",
 		"source": "MM",
@@ -2495,32 +2299,15 @@
 	},
 	{
 		"name": "Lizard King",
-		"source": "MM",
-		"_copy": {
-			"name": "Lizardfolk",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Lizard Queen",
-		"source": "MM",
-		"_copy": {
-			"name": "Lizardfolk",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Lizardfolk",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Lizardfolk.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2540,11 +2327,7 @@
 	},
 	{
 		"name": "Lizardfolk Shaman",
-		"source": "MM",
-		"_copy": {
-			"name": "Lizardfolk",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Mage",
@@ -2561,38 +2344,16 @@
 	{
 		"name": "Magma Mephit",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Magma Mephit.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"Composed of earth and fire, magma mephits glow a dull red color as they perspire beads of molten lava. They are slow to comprehend the meaning of others' words and actions."
 			]
-		},
-		"_appendCopy": {
-			"name": "Mephits",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Magmin",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Magmin.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2615,39 +2376,17 @@
 	{
 		"name": "Manes",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Manes.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"Souls of evil creatures that descend to the Lower Planes are transformed into manes-the lowest form of demonkind. These wretched fiends attack any non-demon they see, and they are called to the Material Plane by those seeking to sow death and chaos.",
 				"Orcus, the Prince of Undeath, has the power to transform manes into undead monsters, most often ghouls and shadows. Other demon lords feed on manes, destroying them utterly. Otherwise, killing a manes causes it to dissipate into a cloud of reeking vapor that reforms into another manes after one day."
 			]
-		},
-		"_appendCopy": {
-			"name": "Demons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Manticore",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Manticore.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2662,15 +2401,6 @@
 	{
 		"name": "Marid",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Marid.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2705,39 +2435,17 @@
 	{
 		"name": "Marilith",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Marilith.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"Terrible to behold, a marilith has the lower body of a great serpent and the upper torso of a humanoid female with six arms. Wielding a wicked blade in each of its six hands, a marilith is a devastating foe that few can match in battle.",
 				"These demons possess keen minds and a finely honed sense of tactics, and they are able to lead and unite other demons in common cause. Mariliths are often encountered as captains at the head of a demonic horde, where they embrace any opportunity to rush headlong into battle."
 			]
-		},
-		"_appendCopy": {
-			"name": "Demons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Mastiff",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Mastiff.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2748,15 +2456,6 @@
 	{
 		"name": "Medusa",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Medusa.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2770,15 +2469,6 @@
 	{
 		"name": "Merfolk",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Merfolk.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2793,15 +2483,6 @@
 	{
 		"name": "Merrow",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Merrow.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2816,39 +2497,17 @@
 	{
 		"name": "Mezzoloth",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Mezzoloth.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"The bulk of the yugoloth population is made up of mezzoloths, which are human-sized insect creatures covered in dense chitinous plates. Mezzoloths serve as foot soldiers in yugoloth armies, their wide-set eyes glowing red as the mezzoloths bear down on their foes.",
 				"Violence and reward are the fundamental drives of a mezzoloth, and powerful beings that promise one or the other can easily attract them into service. Although it has lethal claws on its four arms, a mezzoloth typically wields a trident in two of them. If surrounded by enemies, a mezzoloth exhales toxic fumes that can choke and kill whole groups of creatures."
 			]
-		},
-		"_appendCopy": {
-			"name": "Yugoloths",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Mimic",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Mimic.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2862,15 +2521,6 @@
 	{
 		"name": "Mind Flayer",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Mind Flayer.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2896,24 +2546,11 @@
 	},
 	{
 		"name": "Mind Flayer Arcanist",
-		"source": "MM",
-		"_copy": {
-			"name": "Mind Flayer",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Minotaur",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Minotaur.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2930,33 +2567,11 @@
 	},
 	{
 		"name": "Minotaur Skeleton",
-		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Minotaur Skeleton.jpg"
-				}
-			}
-		],
-		"_copy": {
-			"name": "Skeleton",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Monodrone",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Monodrone.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -2981,38 +2596,16 @@
 	{
 		"name": "Mud Mephit",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Mud Mephit.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"Mud mephits are slow, unctuous creatures of earth and water. They drone their complaints to all who will listen, and beg incessantly for attention and treasure."
 			]
-		},
-		"_appendCopy": {
-			"name": "Mephits",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Mummy",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Mummy.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3031,15 +2624,6 @@
 	{
 		"name": "Mummy Lord",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Mummy.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3090,64 +2674,30 @@
 	},
 	{
 		"name": "Myconid Adult",
-		"source": "MM",
-		"_copy": {
-			"name": "Myconid",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Myconid Sovereign",
-		"source": "MM",
-		"_copy": {
-			"name": "Myconid",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Myconid Sprout",
-		"source": "MM",
-		"_copy": {
-			"name": "Myconid",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Nalfeshnee",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Nalfeshnee.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"The nalfeshnee is one of the most grotesque demons-a corpulent mockery of ape and boar standing twice the height of a human, with feathered wings that seem too small for its bloated body. These brutish features conceal a remarkable intelligence and cunning.",
 				"Nalfeshnees are devastating in combat, using their wings to soar above the front ranks and reach vulnerable adversaries that can be dispatched with little effort. From the thick of battle, they telepathically bellow commands to lesser demons, even as they inspire a sense of dread that forces their foes to scatter and run. Nalfeshnees feed on hatred and despair, but they crave humanoid flesh above all else. They keep their larders filled with humanoids abducted from the Material Plane, then eat those creatures alive during elaborate feasts. Thinking of themselves as refined and cultured, nalfeshnees employ stained and rusted cutlery when they dine."
 			]
-		},
-		"_appendCopy": {
-			"name": "Demons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Needle Blight",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Blights.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3170,15 +2720,6 @@
 	{
 		"name": "Night Hag",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Night Hag.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3233,15 +2774,6 @@
 	{
 		"name": "Nightmare",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Nightmare.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3254,15 +2786,6 @@
 	{
 		"name": "Noble",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Noble.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3274,15 +2797,6 @@
 	{
 		"name": "Nothic",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Nothic.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3296,39 +2810,17 @@
 	{
 		"name": "Nycaloth",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Nycaloth.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"The elite airborne shock troops of the yugoloths, nycaloths look like muscular gargoyles. Powerful bat wings bear them swiftly aloft in battle, and the razorsharp claws of their hands and feet cut through flesh and bone with ease. A nightmarish foe, a nycaloth strikes hard and fast without warning, then teleports away. It uses its innate magic to turn invisible or create illusory doubles of itself, further confounding its enemies.",
 				"Nycaloths are the most loyal of the yugoloths. When they find an evil master that treats them well, they are unlikely to break their agreement unless the reward for doing so is extreme."
 			]
-		},
-		"_appendCopy": {
-			"name": "Yugoloths",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Ochre Jelly",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Ochre Jelly.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3354,15 +2846,6 @@
 	{
 		"name": "Ogre",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Ogre.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3380,33 +2863,11 @@
 	},
 	{
 		"name": "Ogre Zombie",
-		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Ogre Zombie.jpg"
-				}
-			}
-		],
-		"_copy": {
-			"name": "Zombie",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Oni",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Oni.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3419,15 +2880,6 @@
 	{
 		"name": "Orc",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Orc.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3447,15 +2899,6 @@
 	{
 		"name": "Orc Eye of Gruumsh",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Orc.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3483,15 +2926,6 @@
 	{
 		"name": "Orc War Chief",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Orc.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3523,15 +2957,6 @@
 	{
 		"name": "Orog",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Orog.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3563,15 +2988,6 @@
 	{
 		"name": "Otyugh",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Otyugh.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3587,15 +3003,6 @@
 	{
 		"name": "Owlbear",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Owlbear.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3613,15 +3020,6 @@
 	{
 		"name": "Pegasus",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Pegasus.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3635,15 +3033,6 @@
 	{
 		"name": "Pentadrone",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Pentadrone.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3668,15 +3057,6 @@
 	{
 		"name": "Peryton",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Peryton.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3692,15 +3072,6 @@
 	{
 		"name": "Phase Spider",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Phase Spider.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3711,15 +3082,6 @@
 	{
 		"name": "Piercer",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Piercer.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3733,15 +3095,6 @@
 	{
 		"name": "Pit Fiend",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Pit Fiend.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3749,24 +3102,11 @@
 				"With an inflated sense of superiority and entitlement, pit fiends form a grotesque aristocracy in the infernal realm. These domineering and manipulative tyrants conspire to eliminate anything that stands between them and their desires, even as they negotiate the convoluted and dangerous politics of the Nine Hells.",
 				"A pit fiend is a hulking monster with a whip-like tail and enormous wings that it wraps around itself like a cloak. Armored scales cover its body, and its fanged maw drips a venom that can lay the mightiest mortal creatures low. Fearless in battle, a pit fiend takes on the most powerful foes in single combat, demonstrating its supremacy and an arrogance that prevents it from acknowledging any chance of defeat."
 			]
-		},
-		"_appendCopy": {
-			"name": "Devils",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Pixie",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Pixie.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3784,15 +3124,6 @@
 	{
 		"name": "Planetar",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Planetar.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3816,15 +3147,6 @@
 	{
 		"name": "Plesiosaurus",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Plesiosaurus.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3863,15 +3185,6 @@
 	{
 		"name": "Pseudodragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Pseudodragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3890,15 +3203,6 @@
 	{
 		"name": "Pteranodon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Dinosaurs.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3917,15 +3221,6 @@
 	{
 		"name": "Purple Worm",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Purple Worm.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3940,15 +3235,6 @@
 	{
 		"name": "Quadrone",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Quadrone.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -3973,15 +3259,6 @@
 	{
 		"name": "Quaggoth",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Quaggoth.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4080,24 +3357,11 @@
 	},
 	{
 		"name": "Quaggoth Thonot",
-		"source": "MM",
-		"_copy": {
-			"name": "Quaggoth",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Quasit",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Quasit.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4107,24 +3371,11 @@
 				"Mortal spellcasters interested in extraplanar familiars find quasits easy to summon and eager to serve. The quasit plays the part of the obsequious servant. It serves its master well, but it goads the mortal to greater and greater acts of chaos and evil. Such quasits have the following trait.",
 				"Familiar. The quasit can serve another creature as a familiar, forming a telepathic bond with its willing master. While the two are bonded, the master can sense what the quasit senses as long as they are within 1 mile of each other. While the quasit is within 10 feet of its master, the master shares the quasit's Magic Resistance trait. At any time and for any reason, the quasit can end its service as a familiar, ending the telepathic bond."
 			]
-		},
-		"_appendCopy": {
-			"name": "Demons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Quipper",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Quipper.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4136,15 +3387,6 @@
 	{
 		"name": "Rakshasa",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Rakshasa.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4159,15 +3401,6 @@
 	{
 		"name": "Rat",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Rat.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": []
@@ -4175,24 +3408,11 @@
 	},
 	{
 		"name": "Red Dragon Wyrmling",
-		"source": "MM",
-		"_copy": {
-			"name": "Red Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Red Slaad",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Red Slaad.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4231,15 +3451,6 @@
 	{
 		"name": "Remorhaz",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Remorhaz.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4252,15 +3463,6 @@
 	{
 		"name": "Revenant",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Revenant.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4279,15 +3481,6 @@
 	{
 		"name": "Riding Horse",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Riding Horse.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": []
@@ -4296,15 +3489,6 @@
 	{
 		"name": "Roc",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Roc.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4320,15 +3504,6 @@
 	{
 		"name": "Roper",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Roper.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4343,15 +3518,6 @@
 	{
 		"name": "Rug of Smothering",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Rug of Smothering.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4372,15 +3538,6 @@
 	{
 		"name": "Rust Monster",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Rust Monster.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4396,15 +3553,6 @@
 	{
 		"name": "Sahuagin",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Sahuagin.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4421,39 +3569,15 @@
 	},
 	{
 		"name": "Sahuagin Baron",
-		"source": "MM",
-		"_copy": {
-			"name": "Sahuagin",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Sahuagin Priestess",
-		"source": "MM",
-		"_copy": {
-			"name": "Sahuagin",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Salamander",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Salamander.jpg"
-				}
-			},
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Fire Snake.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4473,15 +3597,6 @@
 	{
 		"name": "Satyr",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Satyr.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4501,15 +3616,6 @@
 	{
 		"name": "Scarecrow",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Scarecrow.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4521,15 +3627,6 @@
 	{
 		"name": "Scout",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Scout.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4540,15 +3637,6 @@
 	{
 		"name": "Sea Hag",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Sea Hag.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4599,15 +3687,6 @@
 	{
 		"name": "Shadow",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Shadow.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4621,15 +3700,6 @@
 	{
 		"name": "Shadow Demon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Shadow Demon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4637,24 +3707,11 @@
 				"Shadow demons all but disappear in the darkness, and they can creep about without making a sound. A shadow demon uses its insubstantial claws to feast on its victim's fears, to taste its memories, and drink in its doubts. Bright light harries this fiend and shows its distinct shape, resolving it from a blur of darkness to a winged humanoid creature whose lower body trails off into nothing, and whose claws rend a victim's mind.",
 				"Shadowy Nature. A shadow demon doesn't require air, food, drink, or sleep."
 			]
-		},
-		"_appendCopy": {
-			"name": "Demons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Shambling Mound",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Shambling Mound.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4672,15 +3729,6 @@
 	{
 		"name": "Shield Guardian",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Shield Guardian.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4696,15 +3744,6 @@
 	{
 		"name": "Shrieker",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Fungi.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4723,24 +3762,11 @@
 	},
 	{
 		"name": "Silver Dragon Wyrmling",
-		"source": "MM",
-		"_copy": {
-			"name": "Silver Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Skeleton",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Skeleton.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4779,38 +3805,16 @@
 	{
 		"name": "Smoke Mephit",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Smoke Mephit.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"Smoke mephits are crude, lazy creatures of air and fire that billow smoke constantly. They rarely speak the truth and love to mock and mislead other creatures."
 			]
-		},
-		"_appendCopy": {
-			"name": "Mephits",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Solar",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Solar.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4835,15 +3839,6 @@
 	{
 		"name": "Spectator",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Spectator.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4857,15 +3852,6 @@
 	{
 		"name": "Specter",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Specter.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4881,39 +3867,17 @@
 	{
 		"name": "Spined Devil",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Spined Devil.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"Smaller than most other devils, spinagons act as messengers and spies for greater devils and archdevils. They are the eyes and ears of the Nine Hells, and even fiends that despise a spined devil's weakness treat it with a modicum of respect. A spined devil's body and tail bristle with spines, and it can fling its tail spines as ranged weapons. The spines burst into flame on impact.",
 				"When not delivering messages or gathering intelligence, spined devils serve in the infernal legions as flying artillery, making up for their relative weakness by mobbing together to overwhelm their foes. Though they crave promotion and power, spined devils are craven by nature, and they will quickly scatter if a fight goes against them."
 			]
-		},
-		"_appendCopy": {
-			"name": "Devils",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Spirit Naga",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Spirit Naga.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4936,15 +3900,6 @@
 	{
 		"name": "Sprite",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Sprite.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -4970,38 +3925,16 @@
 	{
 		"name": "Steam Mephit",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Steam Mephit.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"Composed of fire and water, steam mephits leave trails of hot water wherever they go, and they hiss with tendrils of steam. Bossy and hypersensitive, they are the self-appointed overlords of all mephits."
 			]
-		},
-		"_appendCopy": {
-			"name": "Mephits",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Stirge",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Stirge.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5014,29 +3947,6 @@
 	{
 		"name": "Stone Giant",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Stone Giant.jpg"
-				}
-			},
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Stone Giant Boulder.jpg"
-				}
-			},
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Giants.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5073,24 +3983,11 @@
 					]
 				}
 			]
-		},
-		"_appendCopy": {
-			"name": "Giants",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Stone Golem",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Stone Golem.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5117,29 +4014,6 @@
 	{
 		"name": "Storm Giant",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Storm Giant.jpg"
-				}
-			},
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Storm Giant Boulder.jpg"
-				}
-			},
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Giants.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5170,121 +4044,55 @@
 					]
 				}
 			]
-		},
-		"_appendCopy": {
-			"name": "Giants",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Succubus",
-		"source": "MM",
-		"_copy": {
-			"name": "Succubus/Incubus",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Swarm of Bats",
-		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Swarm of Bats.jpg"
-				}
-			}
-		],
-		"_copy": {
-			"name": "Generic Swarm",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Swarm of Beetles",
-		"source": "MM",
-		"_copy": {
-			"name": "Generic Swarm",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Swarm of Centipedes",
-		"source": "MM",
-		"_copy": {
-			"name": "Generic Swarm",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Swarm of Insects",
-		"source": "MM",
-		"_copy": {
-			"name": "Generic Swarm",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Swarm of Poisonous Snakes",
-		"source": "MM",
-		"_copy": {
-			"name": "Generic Swarm",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Swarm of Quippers",
-		"source": "MM",
-		"_copy": {
-			"name": "Generic Swarm",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Swarm of Rats",
-		"source": "MM",
-		"_copy": {
-			"name": "Generic Swarm",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Swarm of Ravens",
-		"source": "MM",
-		"_copy": {
-			"name": "Generic Swarm",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Swarm of Spiders",
-		"source": "MM",
-		"_copy": {
-			"name": "Generic Swarm",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Swarm of Wasps",
-		"source": "MM",
-		"_copy": {
-			"name": "Generic Swarm",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Tarrasque",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Tarrasque.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5298,15 +4106,6 @@
 	{
 		"name": "Thri-kreen",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Thri-kreen.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5321,24 +4120,11 @@
 	},
 	{
 		"name": "Thri-kreen (Psionic)",
-		"source": "MM",
-		"_copy": {
-			"name": "Thri-kreen",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Thug",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Thug.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5349,15 +4135,6 @@
 	{
 		"name": "Treant",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Treant.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5382,15 +4159,6 @@
 	{
 		"name": "Triceratops",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Dinosaurs.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5409,15 +4177,6 @@
 	{
 		"name": "Tridrone",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Tridrone.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5442,15 +4201,6 @@
 	{
 		"name": "Troglodyte",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Troglodyte.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5465,15 +4215,6 @@
 	{
 		"name": "Troll",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Troll.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5503,15 +4244,6 @@
 	{
 		"name": "Twig Blight",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Blights.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5535,15 +4267,6 @@
 	{
 		"name": "Tyrannosaurus Rex",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Dinosaurs.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5562,15 +4285,6 @@
 	{
 		"name": "Ultroloth",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Ultroloth.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5578,24 +4292,11 @@
 				"Frequently at one another's throats, ultroloths continually scheme to enhance their own power. When not employed to fight in the Blood War, ultroloths lead yugoloth forces throughout the planes, acting as crime bosses or commanders of evil mercenary companies.",
 				"With a reputation for cruelty, ultroloths command their minions to fight while the ultroloths stay removed from combat themselves. Lesser yugoloths know their place when facing an ultroloth and respond to its summons without demand for payment."
 			]
-		},
-		"_appendCopy": {
-			"name": "Yugoloths",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Umber Hulk",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Umber Hulk.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5609,15 +4310,6 @@
 	{
 		"name": "Unicorn",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Unicorn.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5664,15 +4356,6 @@
 	{
 		"name": "Vampire",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Vampire.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5737,36 +4420,15 @@
 	},
 	{
 		"name": "Vampire Spawn",
-		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Vampire Spawn.jpg"
-				}
-			}
-		],
-		"_copy": {
-			"name": "Vampire",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Vampire Spellcaster",
-		"source": "MM",
-		"_copy": {
-			"name": "Vampire",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Vampire Warrior",
-		"source": "MM",
-		"_copy": {
-			"name": "Vampire",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Veteran",
@@ -5781,15 +4443,6 @@
 	{
 		"name": "Vine Blight",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Blights.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5811,15 +4464,6 @@
 	{
 		"name": "Violet Fungus",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Fungi.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5839,15 +4483,6 @@
 	{
 		"name": "Vrock",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Vrock.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5855,10 +4490,6 @@
 				"Vrocks gobble humanoid flesh whenever they can, stunning potential prey with an ear-splitting shriek, then swooping down to attack with beak and claw. Vrocks can shake their wings, releasing clouds of toxic spores.",
 				"Coveting pretty things, vrocks turn against each other for the chance to lay claim to cheap jewelry or ornamental stones. Despite their love of treasure, vrocks are difficult to bribe, seeing no reason to bargain when they can simply take what they want from a would-be bargainer's corpse."
 			]
-		},
-		"_appendCopy": {
-			"name": "Demons",
-			"source": "MM"
 		}
 	},
 	{
@@ -5874,47 +4505,21 @@
 	},
 	{
 		"name": "Warhorse Skeleton",
-		"source": "MM",
-		"_copy": {
-			"name": "Skeleton",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Water Elemental",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Water Elemental.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"A water elemental is a cresting wave that rolls across the ground, becoming nearly invisible at it courses through a larger body of water. It engulfs creatures that stand against it, filling their mouths and lungs as easily as it smothers flame."
 			]
-		},
-		"_appendCopy": {
-			"name": "Elementals",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Water Weird",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Water Weird.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5929,22 +4534,6 @@
 	{
 		"name": "Werebear",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Werebear.jpg"
-				}
-			},
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Lycanthropes.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -5984,22 +4573,6 @@
 	{
 		"name": "Wereboar",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Wereboar.jpg"
-				}
-			},
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Lycanthropes.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6040,22 +4613,6 @@
 	{
 		"name": "Wererat",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Wererat.jpg"
-				}
-			},
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Lycanthropes.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6097,22 +4654,6 @@
 	{
 		"name": "Weretiger",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Weretiger.jpg"
-				}
-			},
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Lycanthropes.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6154,22 +4695,6 @@
 	{
 		"name": "Werewolf",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Werewolf.jpg"
-				}
-			},
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Lycanthropes.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6209,24 +4734,11 @@
 	},
 	{
 		"name": "White Dragon Wyrmling",
-		"source": "MM",
-		"_copy": {
-			"name": "White Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Wight",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Wight.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6243,15 +4755,6 @@
 	{
 		"name": "Will-o'-Wisp",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Will-o-Wisp.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6266,24 +4769,11 @@
 	},
 	{
 		"name": "Winged Kobold",
-		"source": "MM",
-		"_copy": {
-			"name": "Kobold",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Winter Wolf",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/White Wolf.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6294,15 +4784,6 @@
 	{
 		"name": "Worg",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Worg.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6313,15 +4794,6 @@
 	{
 		"name": "Wraith",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Wraith.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6338,15 +4810,6 @@
 	{
 		"name": "Wyvern",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Wyvern.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6362,15 +4825,6 @@
 	{
 		"name": "Xorn",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Xorn.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6383,15 +4837,6 @@
 	{
 		"name": "Yeti",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Yeti.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6408,135 +4853,65 @@
 	{
 		"name": "Yochlol",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Yochlol.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
 				"The yochlols are the Handmaidens of Lolth-extensions of the Spider Queen's will dedicated to acting as her spies, taskmasters, and agents of villainy. They attend their goddess in the Demonweb Pits, but Lolth sometimes dispatches yochlols to the Material Plane to guard her temples and to aid her most devout priestesses. Yochlols don't form outside Lolth's realm of the Demonweb, and they serve no demon lords except their queen.",
 				"Outside the Abyss, a yochlol can assume the guise of a female drow or monstrous spider to conceal its demonic form. In its true form, the fiend appears as a pillar of yellow slime with a single malevolent eye. In its drow and true form, a yochlol's touch carries the same venomous touch as its spider form's bite."
 			]
-		},
-		"_appendCopy": {
-			"name": "Demons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Young Black Dragon",
-		"source": "MM",
-		"_copy": {
-			"name": "Black Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Young Blue Dragon",
-		"source": "MM",
-		"_copy": {
-			"name": "Blue Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Young Brass Dragon",
-		"source": "MM",
-		"_copy": {
-			"name": "Brass Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Young Bronze Dragon",
-		"source": "MM",
-		"_copy": {
-			"name": "Bronze Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Young Copper Dragon",
-		"source": "MM",
-		"_copy": {
-			"name": "Copper Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Young Gold Dragon",
-		"source": "MM",
-		"_copy": {
-			"name": "Gold Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Young Green Dragon",
-		"source": "MM",
-		"_copy": {
-			"name": "Green Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Young Red Dragon",
-		"source": "MM",
-		"_copy": {
-			"name": "Red Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Young Red Shadow Dragon",
-		"source": "MM",
-		"_copy": {
-			"name": "Shadow Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Young Remorhaz",
-		"source": "MM",
-		"_copy": {
-			"name": "Remorhaz",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Young Silver Dragon",
-		"source": "MM",
-		"_copy": {
-			"name": "Silver Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Young White Dragon",
-		"source": "MM",
-		"_copy": {
-			"name": "White Dragon",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Yuan-ti Abomination",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Yuan-ti Abomination.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6570,40 +4945,19 @@
 	},
 	{
 		"name": "Yuan-ti Malison (Type 1)",
-		"source": "MM",
-		"_copy": {
-			"name": "Yuan-ti Malison",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Yuan-ti Malison (Type 2)",
-		"source": "MM",
-		"_copy": {
-			"name": "Yuan-ti Malison",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Yuan-ti Malison (Type 3)",
-		"source": "MM",
-		"_copy": {
-			"name": "Yuan-ti Malison",
-			"source": "MM"
-		}
+		"source": "MM"
 	},
 	{
 		"name": "Yuan-ti Pureblood",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Yuan-ti Pureblood.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6638,15 +4992,6 @@
 	{
 		"name": "Zombie",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Zombie.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6664,15 +5009,6 @@
 	{
 		"name": "Blue Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Blue Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6713,24 +5049,11 @@
 					]
 				}
 			]
-		},
-		"_appendCopy": {
-			"name": "Chromatic Dragons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Brass Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Brass Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6764,24 +5087,11 @@
 					]
 				}
 			]
-		},
-		"_appendCopy": {
-			"name": "Metallic Dragons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Bronze Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Bronze Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6814,24 +5124,11 @@
 					]
 				}
 			]
-		},
-		"_appendCopy": {
-			"name": "Metallic Dragons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Copper Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Copper Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6870,15 +5167,6 @@
 	{
 		"name": "Gold Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Gold Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6912,24 +5200,11 @@
 					]
 				}
 			]
-		},
-		"_appendCopy": {
-			"name": "Metallic Dragons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Green Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Green Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -6977,15 +5252,6 @@
 	{
 		"name": "Red Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Red Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -7023,24 +5289,11 @@
 					]
 				}
 			]
-		},
-		"_appendCopy": {
-			"name": "Chromatic Dragons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Silver Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Silver Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -7075,24 +5328,11 @@
 					]
 				}
 			]
-		},
-		"_appendCopy": {
-			"name": "Metallic Dragons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "White Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/White Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -7133,24 +5373,11 @@
 					]
 				}
 			]
-		},
-		"_appendCopy": {
-			"name": "Chromatic Dragons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Black Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Black Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -7188,24 +5415,11 @@
 					]
 				}
 			]
-		},
-		"_appendCopy": {
-			"name": "Chromatic Dragons",
-			"source": "MM"
 		}
 	},
 	{
 		"name": "Faerie Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Faerie Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -7220,15 +5434,6 @@
 	{
 		"name": "Succubus/Incubus",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Succubus.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -7246,15 +5451,6 @@
 	{
 		"name": "Githyanki",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Githyanki.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -7282,15 +5478,6 @@
 	{
 		"name": "Githzerai",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Githzerai.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -7322,15 +5509,6 @@
 	{
 		"name": "Yuan-ti Malison",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Yuan-ti Malison.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -7365,15 +5543,6 @@
 	{
 		"name": "Myconid",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Myconids.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -7446,15 +5615,6 @@
 	{
 		"name": "Bone Naga",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Bone Naga.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
@@ -7477,15 +5637,6 @@
 	{
 		"name": "Shadow Dragon",
 		"source": "MM",
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "internal",
-					"path": "bestiary/MM/Shadow Dragon.jpg"
-				}
-			}
-		],
 		"entries": {
 			"type": "entries",
 			"entries": [
