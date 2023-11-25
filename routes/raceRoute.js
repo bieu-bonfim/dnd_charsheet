@@ -1,5 +1,4 @@
 const express = require('express');
-const Race = require('../models/Race');
 
 const {
   getRace,

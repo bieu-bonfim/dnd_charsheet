@@ -12,8 +12,8 @@ const invertedIndexSchema = mongoose.Schema(
           ref: "Bestiary",
         },
         pos: {
-          type: Number,
-        },
+          type: Number
+        }
       },
     ],
   },

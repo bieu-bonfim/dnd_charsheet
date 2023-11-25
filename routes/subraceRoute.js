@@ -1,5 +1,4 @@
 const express = require('express');
-const Subrace = require('../models/Subrace');
 
 const {
   getSubraces,

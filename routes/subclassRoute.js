@@ -1,5 +1,4 @@
 const express = require('express');
-const Subclass = require('../models/Subclass');
 
 const {
     getSubclass,

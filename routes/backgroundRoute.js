@@ -1,5 +1,4 @@
 const express = require('express');
-const Background = require('../models/Background');
 
 const {
   getBackground,

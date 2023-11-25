@@ -1,5 +1,4 @@
 const express = require('express');
-const Spell = require('../models/Spell');
 
 const {
   getSpell,

@@ -1,5 +1,4 @@
 const express = require('express');
-const Character = require('../models/Character');
 const {
   getCharacter, 
   createCharacter, 

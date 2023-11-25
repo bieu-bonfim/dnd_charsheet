@@ -19,7 +19,8 @@
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
     "express-ejs-layouts": "^2.5.1",
-    "mongoose": "^7.5.1"
+    "mongoose": "^7.5.1",
+    "natural": "^6.9.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"

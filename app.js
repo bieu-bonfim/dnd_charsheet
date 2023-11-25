@@ -11,6 +11,8 @@ const spellRoute = require('./routes/spellRoute');
 const classRoute = require('./routes/classRoute');
 const subclassRoute = require('./routes/subclassRoute');
 const backgroundRoute = require('./routes/backgroundRoute');
+const bestiaryRoute = require('./routes/bestiaryRoute');
+const invertedIndexRoute = require('./routes/invertedIndexRoute');
 const errorMiddleware = require('./middlewares/errorMiddleware');
 
 const app = express();
@@ -29,6 +31,8 @@ app.use('/api/spell', spellRoute);
 app.use('/api/class', classRoute);
 app.use('/api/subclass', subclassRoute);
 app.use('/api/background', backgroundRoute);
+app.use('/api/bestiary', bestiaryRoute);
+app.use('/api/invertedIndex', invertedIndexRoute);
 
 app.get('', (req, res) => {
   res.send("teste");
