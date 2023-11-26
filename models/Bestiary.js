@@ -10,6 +10,9 @@ const bestiarySchema = mongoose.Schema(
     },
     entries: {
       type: [String]
+    },
+    words: {
+      type: Number
     }
   },
   {

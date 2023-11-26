@@ -139,7 +139,19 @@ const stopwords = [
   "now",
 ];
 
-// ---------------------------- spell  ------------------------------
+
+const searchBestiary = asyncHandler(async (req, res) => {
+  try {
+    const { text } = req.query;
+
+    // const entry = await Bestiary.find();
+    res.send(text);
+  } catch (error) {
+    res.status(500);
+    throw new Error(error.message);
+  }
+});
+
 const getBestiaryEntries = asyncHandler(async (req, res) => {
   try {
     const entry = await Bestiary.find();
@@ -167,6 +179,7 @@ const createBestiaryEntry = asyncHandler(async (req, res) => {
       await updateExistingWord(word, entry._id, cont);
       cont++;
     }
+    const updated = await Bestiary.findOneAndUpdate({"_id": entry._id}, {"words": cont});
     res.status(200).json(entry);
   } catch (error) {
     res.status(500);
@@ -222,4 +235,5 @@ module.exports = {
   getBestiaryEntry,
   updateBestiaryEntry,
   deleteBestiaryEntry,
+  searchBestiary
 };
