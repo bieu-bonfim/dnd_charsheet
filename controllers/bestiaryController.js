@@ -5,6 +5,9 @@ const {
   createForNewWord,
   updateExistingWord,
   checkIfWordExists,
+  getInvertedIndexOfWord,
+  getDocsWithWord,
+  getWordsFromDoc,
 } = require("./invertedIndexController.js");
 const natural = require("natural");
 const stemmer = natural.PorterStemmer;
@@ -139,13 +142,82 @@ const stopwords = [
   "now",
 ];
 
+function countSequences(array) {
+  let count = 0;
+  let currentSequenceLength = 1;
+
+  for (let i = 1; i < array.length; i++) {
+    if (array[i] === array[i - 1] + 1) {
+      currentSequenceLength++;
+    } else {
+      if (currentSequenceLength > 1) {
+        count++;
+      }
+      currentSequenceLength = 1;
+    }
+  }
+
+  if (currentSequenceLength > 1) {
+    count++;
+  }
+
+  return count;
+}
 
 const searchBestiary = asyncHandler(async (req, res) => {
   try {
     const { text } = req.query;
+    let relevance = [];
+    const tokens = stemmer.tokenizeAndStem(text);
+    for (const token of tokens) {
+      console.log(token);
+      relevance = relevance.concat(await getDocsWithWord(token));
+    }
 
-    // const entry = await Bestiary.find();
-    res.send(text);
+    const flattenedResults = relevance.flatMap((item) => item.result);
+
+    const relevances = flattenedResults.reduce((acc, current) => {
+      const existingEntry = acc.find((entry) => entry.doc === current.doc);
+
+      if (existingEntry) {
+        // If the document already exists in the accumulator, add tfidf and concatenate positions
+        existingEntry.tfidf = (existingEntry.tfidf + current.tfidf) / 2;
+        existingEntry.positions = existingEntry.positions.concat(
+          current.positions
+        );
+        existingEntry.positions.sort((a, b) => a - b);
+      } else {
+        // If the document doesn't exist in the accumulator, add the entire entry
+        acc.push({ ...current }); // Creating a copy to avoid modifying the original data
+      }
+
+      return acc;
+    }, []);
+
+    relevances.forEach((e) => {
+      e.sequences = countSequences(e.positions);
+    });
+
+    // Step 1: Find the highest TF-IDF value
+    const highestTfidf = Math.max(...relevances.map((doc) => doc.tfidf));
+
+    // Step 2: Normalize TF-IDF values
+    const normalizedDocuments = relevances.map((doc) => ({
+      ...doc,
+      normalizedTfidf: doc.tfidf / highestTfidf,
+      relevanceScore: (doc.tfidf / highestTfidf) * 0.5 + doc.sequences * 0.5,
+    }));
+
+    // Sort documents by relevance score in descending order
+    const sortedDocuments = normalizedDocuments.sort(
+      (a, b) => b.relevanceScore - a.relevanceScore
+    );
+
+    console.log(sortedDocuments);
+
+    res.send({
+      sortedDocuments,
+    });
   } catch (error) {
     res.status(500);
     throw new Error(error.message);
@@ -179,7 +251,10 @@ const createBestiaryEntry = asyncHandler(async (req, res) => {
       await updateExistingWord(word, entry._id, cont);
       cont++;
     }
-    const updated = await Bestiary.findOneAndUpdate({"_id": entry._id}, {"words": cont});
+    const updated = await Bestiary.findOneAndUpdate(
+      { _id: entry._id },
+      { words: cont }
+    );
     res.status(200).json(entry);
   } catch (error) {
     res.status(500);
@@ -235,5 +310,5 @@ module.exports = {
   getBestiaryEntry,
   updateBestiaryEntry,
   deleteBestiaryEntry,
-  searchBestiary
+  searchBestiary,
 };

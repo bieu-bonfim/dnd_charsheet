@@ -16,9 +16,6 @@ const invertedIndexSchema = mongoose.Schema(
         }
       },
     ],
-  },
-  {
-    timestamps: true,
   }
 );
 
