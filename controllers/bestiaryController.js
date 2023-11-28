@@ -175,18 +175,17 @@ const searchBestiary = asyncHandler(async (req, res) => {
   try {
     const { text } = req.query;
     let relevance = [];
+
     const tokens = stemmer.tokenizeAndStem(text);
     for (const token of tokens) {
       relevance = relevance.concat(await getDocsWithWord(token));
     }
 
     const flattenedResults = relevance.flatMap((item) => item.result);
-
     const relevances = flattenedResults.reduce((acc, current) => {
       const existingEntry = acc.find((entry) => entry.doc === current.doc);
 
       if (existingEntry) {
-        // If the document already exists in the accumulator, add tfidf and concatenate positions
         existingEntry.tfidf = (existingEntry.tfidf + current.tfidf) / 2;
         existingEntry.positions = existingEntry.positions.concat(
           current.positions
@@ -194,8 +193,7 @@ const searchBestiary = asyncHandler(async (req, res) => {
         existingEntry.positions.sort((a, b) => a - b);
         existingEntry.inTitle += current.inTitle;
       } else {
-        // If the document doesn't exist in the accumulator, add the entire entry
-        acc.push({ ...current }); // Creating a copy to avoid modifying the original data
+        acc.push({ ...current });
       }
 
       return acc;
@@ -205,20 +203,16 @@ const searchBestiary = asyncHandler(async (req, res) => {
       e.sequences = countSequences(e.positions);
     });
 
-    // Step 1: Find the highest TF-IDF value
     const highestTfidf = Math.max(...relevances.map((doc) => doc.tfidf));
-
-    // Step 2: Normalize TF-IDF values
     const normalizedDocuments = relevances.map((doc) => ({
       ...doc,
       normalizedTfidf: doc.tfidf / highestTfidf,
       relevanceScore:
         (doc.tfidf / highestTfidf) * 0.3 +
-        doc.sequences * 0.6 +
+        doc.sequences * 0.4 +
         doc.inTitle * 0.3,
     }));
 
-    // Sort documents by relevance score in descending order
     const sortedDocuments = normalizedDocuments.sort(
       (a, b) => b.relevanceScore - a.relevanceScore
     );
@@ -246,10 +240,12 @@ const getBestiaryEntries = asyncHandler(async (req, res) => {
 
 const getSuggestions = asyncHandler(async (req, res) => {
   try {
-    const searchTerm = req.params.term;    
+    const searchTerm = req.params.term;
     const suggestions = await Bestiary.find({
       name: { $regex: new RegExp(searchTerm, "i") },
-    }).select('name').limit(10);
+    })
+      .select("name")
+      .limit(10);
 
     res.json(suggestions);
   } catch (error) {
@@ -265,7 +261,11 @@ const createBestiaryEntry = asyncHandler(async (req, res) => {
     entry = await Bestiary.create(req.body);
     normal_name = stemmer.tokenizeAndStem(entry.name);
     entry.entries.forEach((str) => {
-      const tokens = stemmer.tokenizeAndStem(str);
+      var tokens = stemmer.tokenizeAndStem(str);
+      tokens = tokens.filter(
+        (word) =>
+          !stopwords.map((w) => w.toLowerCase()).includes(word.toLowerCase())
+      );
       words = words.concat(tokens);
     });
     let cont = 0;
@@ -338,5 +338,5 @@ module.exports = {
   updateBestiaryEntry,
   deleteBestiaryEntry,
   searchBestiary,
-  getSuggestions
+  getSuggestions,
 };
