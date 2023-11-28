@@ -212,7 +212,7 @@ const searchBestiary = asyncHandler(async (req, res) => {
     const normalizedDocuments = relevances.map((doc) => ({
       ...doc,
       normalizedTfidf: doc.tfidf / highestTfidf,
-      relevanceScore: (doc.tfidf / highestTfidf) * 0.3 + doc.sequences * 0.4 + doc.inTitle*0.3,
+      relevanceScore: (doc.tfidf / highestTfidf) * 0.3 + doc.sequences * 0.6 + doc.inTitle*0.3,
     }));
 
     // Sort documents by relevance score in descending order
