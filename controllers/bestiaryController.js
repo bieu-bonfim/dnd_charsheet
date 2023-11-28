@@ -212,7 +212,10 @@ const searchBestiary = asyncHandler(async (req, res) => {
     const normalizedDocuments = relevances.map((doc) => ({
       ...doc,
       normalizedTfidf: doc.tfidf / highestTfidf,
-      relevanceScore: (doc.tfidf / highestTfidf) * 0.3 + doc.sequences * 0.6 + doc.inTitle*0.3,
+      relevanceScore:
+        (doc.tfidf / highestTfidf) * 0.3 +
+        doc.sequences * 0.6 +
+        doc.inTitle * 0.3,
     }));
 
     // Sort documents by relevance score in descending order
@@ -235,6 +238,20 @@ const getBestiaryEntries = asyncHandler(async (req, res) => {
   try {
     const entry = await Bestiary.find();
     res.send(entry);
+  } catch (error) {
+    res.status(500);
+    throw new Error(error.message);
+  }
+});
+
+const getSuggestions = asyncHandler(async (req, res) => {
+  try {
+    const searchTerm = req.params.term;    
+    const suggestions = await Bestiary.find({
+      name: { $regex: new RegExp(searchTerm, "i") },
+    }).select('name').limit(10);
+
+    res.json(suggestions);
   } catch (error) {
     res.status(500);
     throw new Error(error.message);
@@ -321,4 +338,5 @@ module.exports = {
   updateBestiaryEntry,
   deleteBestiaryEntry,
   searchBestiary,
+  getSuggestions
 };
