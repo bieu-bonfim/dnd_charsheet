@@ -142,6 +142,13 @@ const stopwords = [
   "now",
 ];
 
+function removeAttribute(objects, attributeToRemove) {
+  return objects.map((obj) => {
+    const { [attributeToRemove]: removedAttribute, ...rest } = obj;
+    return rest;
+  });
+}
+
 function countSequences(array) {
   let count = 0;
   let currentSequenceLength = 1;
@@ -170,7 +177,6 @@ const searchBestiary = asyncHandler(async (req, res) => {
     let relevance = [];
     const tokens = stemmer.tokenizeAndStem(text);
     for (const token of tokens) {
-      console.log(token);
       relevance = relevance.concat(await getDocsWithWord(token));
     }
 
@@ -186,6 +192,7 @@ const searchBestiary = asyncHandler(async (req, res) => {
           current.positions
         );
         existingEntry.positions.sort((a, b) => a - b);
+        existingEntry.inTitle += current.inTitle;
       } else {
         // If the document doesn't exist in the accumulator, add the entire entry
         acc.push({ ...current }); // Creating a copy to avoid modifying the original data
@@ -205,7 +212,7 @@ const searchBestiary = asyncHandler(async (req, res) => {
     const normalizedDocuments = relevances.map((doc) => ({
       ...doc,
       normalizedTfidf: doc.tfidf / highestTfidf,
-      relevanceScore: (doc.tfidf / highestTfidf) * 0.5 + doc.sequences * 0.5,
+      relevanceScore: (doc.tfidf / highestTfidf) * 0.3 + doc.sequences * 0.4 + doc.inTitle*0.3,
     }));
 
     // Sort documents by relevance score in descending order
@@ -213,10 +220,10 @@ const searchBestiary = asyncHandler(async (req, res) => {
       (a, b) => b.relevanceScore - a.relevanceScore
     );
 
-    console.log(sortedDocuments);
+    const result = removeAttribute(sortedDocuments, "positions");
 
     res.send({
-      sortedDocuments,
+      result,
     });
   } catch (error) {
     res.status(500);
@@ -237,7 +244,9 @@ const getBestiaryEntries = asyncHandler(async (req, res) => {
 const createBestiaryEntry = asyncHandler(async (req, res) => {
   try {
     var words = [];
-    const entry = await Bestiary.create(req.body);
+    var normal_name = [];
+    entry = await Bestiary.create(req.body);
+    normal_name = stemmer.tokenizeAndStem(entry.name);
     entry.entries.forEach((str) => {
       const tokens = stemmer.tokenizeAndStem(str);
       words = words.concat(tokens);
@@ -253,9 +262,10 @@ const createBestiaryEntry = asyncHandler(async (req, res) => {
     }
     const updated = await Bestiary.findOneAndUpdate(
       { _id: entry._id },
-      { words: cont }
+      { words: cont, normal_name }
     );
-    res.status(200).json(entry);
+
+    res.status(200).json(updated);
   } catch (error) {
     res.status(500);
     throw new Error(error.message);

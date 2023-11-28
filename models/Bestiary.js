@@ -5,6 +5,9 @@ const bestiarySchema = mongoose.Schema(
     name: {
       type: String
     },
+    normal_name: {
+      type: [String]
+    },
     source: {
       type: String
     },

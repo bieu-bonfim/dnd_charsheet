@@ -7,10 +7,10 @@ const Bestiary = require("../models/Bestiary");
 
 function calculateTFIDF() {}
 
-const getTotalWords = async (doc) => {
-  const entry = await Bestiary.findById(doc);
+const getDocData = async (doc) => {
+  const entry = await Bestiary.findById(doc).select('normal_name words').exec();
   if (entry) {
-    return entry.words;
+    return entry;
   }
   return 0;
 };
@@ -43,10 +43,15 @@ const getDocsWithWord = async (word) => {
       );
       const count = entrylist.length;
       const positions = entrylist.map(entry => entry.pos);
-      const total = await getTotalWords(doc);
+      const docData = await getDocData(doc);
+      const total = docData.words;
       const tf = count / total;
       const tfidf = tf * idf; 
-      result.push({ doc, tfidf, positions });
+      var inTitle = 0;
+      if (docData.normal_name.indexOf(word) !== -1) {
+        inTitle += 1;
+      }
+      result.push({ doc, tfidf, positions, inTitle });
     }
   }
   return { word: word, result };
