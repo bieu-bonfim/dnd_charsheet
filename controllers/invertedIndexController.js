@@ -30,15 +30,23 @@ const getInvertedIndexOfWord = async (word) => {
 
 const getDocsWithWord = async (word) => {
   let result = [];
-  const invIndex = await InvertedIndex.find({ $or:[ { word: word }, { normal_name: word} ]});
-  if (invIndex[0]) {
+  var data = [];
+  const entriesWithTitle = await Bestiary.find({ normal_name: word}).select("_id");
+  const invIndex = await InvertedIndex.find({ word: word });
+  if (invIndex[0] || entriesWithTitle[0]) {
+    if (invIndex[0]) {
+      data = invIndex[0].entries;
+    }
+    for (const entryWithTitle of entriesWithTitle) {
+      data = data.concat({doc:entryWithTitle._id, pos: -1});
+    }
     const unique = Array.from(
-      new Set(invIndex[0].entries.map((item) => item.doc.toString()))
+      new Set(data.map((item) => item.doc.toString()))
     );
     const documents = await Bestiary.count();
     const idf = Math.log(documents / unique.length);
     for (const doc of unique) {
-      const entrylist = invIndex[0].entries.filter(
+      const entrylist = data.filter(
         (obj) => obj.doc.toString() === doc
       );
       const count = entrylist.length;
