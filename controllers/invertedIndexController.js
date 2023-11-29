@@ -30,7 +30,7 @@ const getInvertedIndexOfWord = async (word) => {
 
 const getDocsWithWord = async (word) => {
   let result = [];
-  const invIndex = await InvertedIndex.find({ word: word });
+  const invIndex = await InvertedIndex.find({ $or:[ { word: word }, { normal_name: word} ]});
   if (invIndex[0]) {
     const unique = Array.from(
       new Set(invIndex[0].entries.map((item) => item.doc.toString()))
