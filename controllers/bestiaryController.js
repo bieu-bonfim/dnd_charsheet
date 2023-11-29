@@ -245,7 +245,7 @@ const getSuggestions = asyncHandler(async (req, res) => {
       name: { $regex: new RegExp(searchTerm, "i") },
     })
       .select("name")
-      .limit(10);
+      .limit(5);
 
     res.json(suggestions);
   } catch (error) {
