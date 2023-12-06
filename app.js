@@ -38,6 +38,10 @@ app.get('', (req, res) => {
 
 app.use(errorMiddleware);
 
+app.listen(PORT, () => {
+  console.log(`Rodando na porta ${PORT}`);
+});
+
 // mongoose
 // .connect(MONGO_URL)
 // .then(() => {
