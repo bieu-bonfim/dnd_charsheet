@@ -11,6 +11,7 @@ const spellRoute = require('./routes/spellRoute');
 const classRoute = require('./routes/classRoute');
 const subclassRoute = require('./routes/subclassRoute');
 const backgroundRoute = require('./routes/backgroundRoute');
+const diceRollRoute = require('./routes/diceRollRoute');
 const errorMiddleware = require('./middlewares/errorMiddleware');
 
 const app = express();
@@ -24,6 +25,7 @@ const MONGO_URL = process.env.MONGO_URL;
 
 app.use('/api/character', characterRoute);
 app.use('/api/race', raceRoute);
+app.use('/api/roll', diceRollRoute);
 app.use('/api/subrace', subraceRoute);
 app.use('/api/spell', spellRoute);
 app.use('/api/class', classRoute);
@@ -36,15 +38,15 @@ app.get('', (req, res) => {
 
 app.use(errorMiddleware);
 
-mongoose
-.connect(MONGO_URL)
-.then(() => {
-  console.log("Conectado ao banco de dados!");
-  app.listen(PORT, () => {
-    console.log(`Rodando na porta ${PORT}`);
-  });
-}).catch((error) => {
-  console.log("Erro: "+error);
-});
+// mongoose
+// .connect(MONGO_URL)
+// .then(() => {
+//   console.log("Conectado ao banco de dados!");
+//   app.listen(PORT, () => {
+//     console.log(`Rodando na porta ${PORT}`);
+//   });
+// }).catch((error) => {
+//   console.log("Erro: "+error);
+// });
 
 
