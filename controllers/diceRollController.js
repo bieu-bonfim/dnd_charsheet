@@ -1,5 +1,5 @@
 const asyncHandler = require('express-async-handler');
-const rolled = 0;
+let rolled = 0;
 
 const getRoll = asyncHandler(async(req, res) => {
   try {
