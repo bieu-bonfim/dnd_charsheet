@@ -4,6 +4,7 @@ let rolled = 0;
 const getRoll = asyncHandler(async(req, res) => {
   try {
     res.send({roll: rolled});
+    rolled = 0;
   } catch (error) {
     res.sendStatus(500);
     throw new Error(error.message);
