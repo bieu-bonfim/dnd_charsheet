@@ -4,7 +4,7 @@ const getRoll = asyncHandler(async(req, res) => {
   try {
     res.send(3);
   } catch (error) {
-    res.status(500);
+    res.sendStatus(500);
     throw new Error(error.message);
   }
 });
